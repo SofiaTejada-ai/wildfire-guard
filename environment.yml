@@ -1,0 +1,21 @@
+name: wildfire
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - geopandas
+  - numpy
+  - matplotlib
+  - scikit-learn EOF
+cat <<'EOF' > environment.yml
+name: wildfire
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - geopandas
+  - numpy
+  - matplotlib
+  - scikit-learn
