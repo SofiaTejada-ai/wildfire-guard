@@ -12,3 +12,7 @@ data/processed/
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 .idea/
+data/raw/
+models*.pkl
+.ipynb_checkpoints/
+notebooks/models/*.pkl
