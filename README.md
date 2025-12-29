@@ -1,4 +1,4 @@
-# Wildfire Guard (NASA VIIRS Fire Detection + FRP Modeling)
+# Wildfire Guard (NASA VIIRS Fire Detection and FRP Modeling)
 
 Automates downloads of NASA FIRMS VIIRS SNPP NRT fire detections and models Fire Radiative Power (FRP). Includes a reproducible pipeline from data ingest to EDA to regression modeling, plus map visualizations of active fires.
 
