@@ -24,12 +24,15 @@ Automates downloads of NASA FIRMS VIIRS SNPP NRT fire detections and models Fire
 ```bash
 conda env create -f environment.yml
 conda activate wildfire
-Run (Download + Analyze)
+```
+
+Run (Download and Analyze)
 Download last N days of detections (example: 7):
 
-bash
 Copy code
+```
 python src/wildfire_guard/firms_api.py 7
+```
 Start notebooks:
 
 bash
@@ -48,7 +51,8 @@ EDA plots and summary tables in 01_eda_viirs.ipynb
 
 Model training, evaluation, and feature analysis in 02_frp_regression.ipynb
 
-Fire map visualization (add your map image below)
+
+Fire map visualization 
 
 Map of Fires
 <img width="800" height="655" alt="image" src="https://github.com/user-attachments/assets/a14f1ea6-d64d-4279-857f-ef706be6b722" />
