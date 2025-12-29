@@ -29,22 +29,20 @@ conda activate wildfire
 Run (Download and Analyze)
 Download last N days of detections (example: 7):
 
-Copy code
 ```
 python src/wildfire_guard/firms_api.py 7
 ```
 Start notebooks:
 
-bash
-Copy code
+```
 jupyter notebook
+```
 Open:
-
+```
 notebooks/01_eda_viirs.ipynb
-
 notebooks/02_frp_regression.ipynb
-
-Outputs
+```
+Outputs:
 Downloaded FIRMS CSV data (wherever your script saves it)
 
 EDA plots and summary tables in 01_eda_viirs.ipynb
